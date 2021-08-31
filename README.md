@@ -5,7 +5,7 @@ This is the repository for the Salesforce-on-Slack Movie Info Coding Take-home A
 ## Prerequisites
 * Have Java and Maven installed.
 * Ngrok exposing the port number 3000 of your local machine.
-* Slack account and workspace with home tab configured [with this JSON](https://github.com/danielblanco96/movie-info/blob/main/assets/view/home.json).
+* Slack account and workspace with home tab configured [with this JSON](https://github.com/danielblanco96/movie-info/blob/main/assets/view/home.json), changing the user_id field.
 
 ## Environment
 Before running the slack app, set the next environment variables in your system.
