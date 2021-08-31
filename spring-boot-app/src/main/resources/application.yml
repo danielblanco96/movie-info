@@ -1,0 +1,9 @@
+server:
+  port: 3000
+  
+spring:
+  cloud:
+    loadbalancer:
+       ribbon:
+        enable: false
+

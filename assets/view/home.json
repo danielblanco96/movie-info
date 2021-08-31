@@ -1,0 +1,38 @@
+{
+  "user_id": "U02CP33HN1Y",
+  "view": {
+       "type":"home",
+       "blocks": [
+            {
+                "type": "header",
+                "text": {
+                    "type": "plain_text",
+                    "text": "Welcome to Movie Info! 🎉",
+                    "emoji": true
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "plain_text",
+                    "text": "Click the button below to pick a movie!",
+                    "emoji": true
+                }
+            },
+            {
+                "type": "actions",
+                "elements": [
+                    {
+                        "type": "button",
+                        "action_id": "open-movie-modal",
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Select a Movie!",
+                            "emoji": true
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
